@@ -134,14 +134,14 @@
 
 			if ( scrlTop > 500 && scrlTop <= 2000 ) {
 				header.addClass('navbar-fixed-top fh5co-animated slideInDown');
-				$("#imageID").attr('src', './images/logos_black.svg');
+				$("#imageID").attr('src', './public/images/logos_black.svg');
 			} else if ( scrlTop <= 500) {
 				if ( header.hasClass('navbar-fixed-top') ) {
 					header.addClass('navbar-fixed-top fh5co-animated slideOutUp');
 					setTimeout(function(){
 						header.removeClass('navbar-fixed-top fh5co-animated slideInDown slideOutUp');
 					}, 50 );
-					$("#imageID").attr('src', './images/logos_white.svg');
+					$("#imageID").attr('src', './public/images/logos_white.svg');
 				}
 			} 
 			
